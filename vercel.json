@@ -1,16 +1,15 @@
 {
-  "version": 2,
   "builds": [
-    { "src": "app.py", "use": "@vercel/python" }
+    { 
+      "src": "app.py",
+      "use": "@vercel/python" 
+    }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/app.py" }
-  ],
-
-  "engines": [
-    {
-    "node": "14.20.0",
-    "npm": "7.24.2"
-  ]
+    { 
+      "src": "(.*)",
+      "dest": "app.py" 
     }
+  ]
 }
+
