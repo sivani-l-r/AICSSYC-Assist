@@ -4,12 +4,11 @@ import collections.abc
 collections.Hashable = collections.abc.Hashable
 
 from flask import Flask, render_template, request
-import spacy
+
 
 app = Flask(__name__)
 
-# Load the spaCy language model
-nlp = spacy.load("en_core_web_sm")
+
 
 # Your ChatBot configuration
 from chatterbot import ChatBot
@@ -28,10 +27,6 @@ def home():
 @app.route("/get")
 def get_bot_response():
     userText = request.args.get('msg')
-
-    # Use spaCy to check if the input is a question
-    doc = nlp(userText)
-    is_question = any(token.tag_ == "W" for token in doc)
 
     response = chatBot.get_response(userText)
 
