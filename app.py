@@ -44,5 +44,4 @@ def get_bot_response():
     else:
         return str(response)
 
-if __name__ == "__main__":
-    app.run()
+
