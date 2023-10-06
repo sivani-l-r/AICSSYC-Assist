@@ -677,6 +677,9 @@ data = [
     "what is history of aicssyc",
     "The 10th edition of AICSSYC, held in 2023, took place at Ginger on MG Road in Kochi. In the preceding year, the 9th edition was hosted at the scenic Suncity Resort in Mandarmani in 2022. Going back in time, the 8th edition convened at the A.D. Patel Institute of Technology in New Vidyanagar, Gujarat, in 2019, while the 7th edition was held at Goa College of Engineering in 2018. Each of these editions provided a platform for technology enthusiasts and experts to come together and share knowledge and insights."
 
+    "history of aicssyc in india",
+    "The 10th edition of AICSSYC, held in 2023, took place at Ginger on MG Road in Kochi. In the preceding year, the 9th edition was hosted at the scenic Suncity Resort in Mandarmani in 2022. Going back in time, the 8th edition convened at the A.D. Patel Institute of Technology in New Vidyanagar, Gujarat, in 2019, while the 7th edition was held at Goa College of Engineering in 2018. Each of these editions provided a platform for technology enthusiasts and experts to come together and share knowledge and insights."
+
 
 
 ]
